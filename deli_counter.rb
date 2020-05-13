@@ -4,7 +4,7 @@ def line(deli)
   else
     current_line = "The line is currently:"
     deli.map.with_index(1) do |customer, index|
-      current_line << " #{index},#{customer}"
+      current_line << " #{index}. #{customer}"
       
     end
     
